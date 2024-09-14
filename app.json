@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "Avy",
-    "slug": "avalanche-forecast",
-    "owner": "nwac",
+    "slug": "avy-coco",
+    "owner": "co-and-co",
     "version": "1.0.7",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -56,14 +56,6 @@
         }
       ],
       [
-        "@sentry/react-native/expo",
-        {
-          "organization": "nwac",
-          "project": "mobile-app",
-          "setCommits": true
-        }
-      ],
-      [
         "expo-image-picker",
         {
           "photosPermission": "The app accesses your photos so you can share your observations with NWAC forecasters."
@@ -73,7 +65,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "47e2fd36-5165-4eb4-9a2d-21beec393379"
+        "projectId": "73a79c94-3924-46dc-a0bd-f3871de548e4"
       },
       "avalanche_center": "NWAC",
       "log_level": "info"
